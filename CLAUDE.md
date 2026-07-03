@@ -20,7 +20,7 @@ Checklist:
 - [x] Project setup with correct pixel-art settings (see below)
 - [x] Player scene: sprite, movement (8-dir or 4-dir), collision
 - [x] One test map using TileMapLayer with collision
-- [ ] Camera following player, clamped to map bounds
+- [x] Camera following player, clamped to map bounds
 - [x] Interaction system (Area2D + "interact" input action)
 - [ ] One NPC with a simple dialogue box
 - [ ] One chest that opens and gives an item (print to console is fine)

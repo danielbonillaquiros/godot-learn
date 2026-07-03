@@ -23,5 +23,8 @@ shape = SubResource("RectangleShape2D_1")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
 shape = SubResource("CircleShape2D_1")
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+
 [connection signal="area_entered" from="InteractionArea" to="." method="_on_interaction_area_area_entered"]
 [connection signal="area_exited" from="InteractionArea" to="." method="_on_interaction_area_area_exited"]
